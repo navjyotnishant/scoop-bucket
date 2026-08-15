@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "description": "Record AI-attribution provenance in git trailers, so productivity claims tie to evidence.",
+    "homepage": "https://github.com/navjyotnishant/whodunit",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/navjyotnishant/whodunit/releases/download/v0.2.0/dun_v0.2.0_windows_amd64.zip",
+            "hash": "581c545a3df1bcf5fc9a0e4d5384cca380294d4c2872f8205cf36ff801eaec34",
+            "bin": [["dun_v0.2.0_windows_amd64.exe", "dun"]]
+        },
+        "arm64": {
+            "url": "https://github.com/navjyotnishant/whodunit/releases/download/v0.2.0/dun_v0.2.0_windows_arm64.zip",
+            "hash": "3b2290edc774e0f0aebc3cd0f66968364c9c9be5dcbb509f59ff8ef7d9d2ee9b",
+            "bin": [["dun_v0.2.0_windows_arm64.exe", "dun"]]
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/navjyotnishant/whodunit"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/navjyotnishant/whodunit/releases/download/v$version/dun_v$version_windows_amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/navjyotnishant/whodunit/releases/download/v$version/dun_v$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/navjyotnishant/whodunit/releases/download/v$version/checksums.txt"
+        }
+    }
+}
