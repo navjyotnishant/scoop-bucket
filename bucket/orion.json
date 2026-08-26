@@ -1,17 +1,17 @@
 {
-    "version": "0.3.2",
+    "version": "0.3.3",
     "description": "AI-native SDLC orchestrator: idea to reviewed pull request, under deterministic guardrails.",
     "homepage": "https://github.com/NjAIAgents/orion-releases",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/NjAIAgents/orion-releases/releases/download/v0.3.2/orion_v0.3.2_windows_amd64.zip",
-            "hash": "3bce9a842f06f604ab823234cc0e8feea686f0be7305f77407f55f1ca40c75ce",
+            "url": "https://github.com/NjAIAgents/orion-releases/releases/download/v0.3.3/orion_v0.3.3_windows_amd64.zip",
+            "hash": "46af6002a8f94a6993e0024f817376fc9ec707f7d528d481c2e411d955e72a9b",
             "bin": [["orion.exe", "orion"]]
         },
         "arm64": {
-            "url": "https://github.com/NjAIAgents/orion-releases/releases/download/v0.3.2/orion_v0.3.2_windows_arm64.zip",
-            "hash": "d73aa92a031dc2d65750217c2aa521734ca70748c123255b6f70806cfcee412d",
+            "url": "https://github.com/NjAIAgents/orion-releases/releases/download/v0.3.3/orion_v0.3.3_windows_arm64.zip",
+            "hash": "48c4c1fccc3536c7205ef30268feb6af24f2ad65224bd13d6354189fd318130c",
             "bin": [["orion.exe", "orion"]]
         }
     },
